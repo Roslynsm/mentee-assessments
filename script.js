@@ -7,7 +7,7 @@ let sum = (number1,number2) => {result=number1+number2;
   // hint: dont forget to return your answer in this function
 }
 
-let counter = () => {
+let counter = () => {return ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 }
 
 let oddCounter = () => {
