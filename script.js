@@ -1,7 +1,9 @@
 // Add your code here! Good Luck!
 
 
-let sum = () => {
+let sum = (number1,number2) => {result=number1+number2;
+  return result;
+  
   // hint: dont forget to return your answer in this function
 }
 
