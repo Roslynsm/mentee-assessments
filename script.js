@@ -29,6 +29,6 @@ let findMax = (arr) => {
 }
 
 let reverseArr = (arr) => {
-
+  return JSON.stringify(reverseArr([2, 5, 7, 3])) == JSON.stringify([3, 7, 5, 2])
 }
 
