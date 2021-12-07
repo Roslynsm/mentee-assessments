@@ -21,6 +21,7 @@ let calculateSum = () => {
 
 
 let average = (arr) => {
+  return JSON.stringify(average([1, 2, 3])) == 2
 }
 
 let findMax = (arr) => {
