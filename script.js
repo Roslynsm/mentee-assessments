@@ -21,14 +21,14 @@ let calculateSum = () => {
 
 
 let average = (arr) => {
-  return JSON.stringify(average([1, 2, 3])) == 2
+  //return JSON.stringify(average([1, 2, 3])) == 2
 }
 
 let findMax = (arr) => {
-  return findMax([1, 3, 5, 6, 4, 3, 2]) == 6
+  //return findMax([1, 3, 5, 6, 4, 3, 2]) == 6
 }
 
 let reverseArr = (arr) => {
-  return JSON.stringify(reverseArr([2, 5, 7, 3])) == JSON.stringify([3, 7, 5, 2])
+  //return JSON.stringify(reverseArr([2, 5, 7, 3])) == JSON.stringify([3, 7, 5, 2])
 }
 
