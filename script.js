@@ -21,8 +21,12 @@ let calculateSum = () => {
 
 
 let average = (arr) => {
-  var total = arr[0]+arr[1]+arr[2]
-return (total/3)
+  var total=0 
+  for (var i = 0; i < arr.length; i+=1) {
+    total = arr[i]+total
+  console.log(total);
+}
+return (total/arr.length )
 }
 
 let findMax = (arr) => {
