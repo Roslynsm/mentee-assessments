@@ -62,10 +62,16 @@ challenges = [
     correct: testFindMax(),
     description: "Coding challenge #6: Find the maximum number in an array of numbers"
   },
+  
   {
     render: testFindMax(),
     correct: testReverseArr(),
     description: "Coding challenge #7: Find the maximum number in an array of numbers"
+  },
+  {
+    render: testReverseArr(),
+    correct: testReverseArr(),
+    description: "Coding challenge #8: Find the reverse of an array of numbers"
   }
 ]
 

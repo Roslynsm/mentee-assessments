@@ -38,7 +38,7 @@ let findMax= (arr) => {
    
   console.log(maxsofar);
  }
-return maxsofar
+return (maxsofar)
 
  }
 
