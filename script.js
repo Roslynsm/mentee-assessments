@@ -29,9 +29,18 @@ let average = (arr) => {
 return (total/arr.length )
 }
 
-let findMax = (arr) => {
-  //return findMax([1, 3, 5, 6, 4, 3, 2]) == 6
-}
+let findMax= (arr) => {
+  var maxsofar=arr[0]
+  for (var i = 0; i < arr.length; i+=1) {
+   if(arr[i]>maxsofar){
+ maxsofar=arr[i]
+   }
+   
+  console.log(maxsofar);
+ }
+return maxsofar
+
+ }
 
 let reverseArr = (arr) => {
   //return JSON.stringify(reverseArr([2, 5, 7, 3])) == JSON.stringify([3, 7, 5, 2])
